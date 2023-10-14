@@ -15,7 +15,9 @@ const COLOR_HALO = '#333';
 const OPACITY_FLOOR = 0.2;
 const OPACITY_ROOM = 0.5;
 
-mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN';
+mapboxgl.accessToken = config.MAPBOX_ACCESS_TOKEN;
+
+//mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN';
 
 function getNearestFeatureId(lngLat, features) {
     return features.map(feature => ({
