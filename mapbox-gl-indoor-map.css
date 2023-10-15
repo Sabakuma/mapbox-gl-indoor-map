@@ -90,3 +90,13 @@ html, body {
 .mapboxgl-ctrl button.mapboxgl-ctrl-floor--7 .mapboxgl-ctrl-icon::after {
     content: 'B7';
 }
+
+.jump-control {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
