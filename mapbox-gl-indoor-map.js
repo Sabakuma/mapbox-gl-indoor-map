@@ -1,4 +1,4 @@
-const STYLE = 'mapbox://styles/a-nagao/clnnyeb9b00t601pseuvz7mn3';
+const STYLE = 'YOUR_STYLE';
 const CENTER = [139.7670, 35.6814];
 const ZOOM = 15.95;
 const ZOOM_SELECTION = 18.95;
